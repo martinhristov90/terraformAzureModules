@@ -1,6 +1,7 @@
 # Defining network to put the VM in
 module "resourceGroup" {
   source   = "./modules/resourceGroup"
+  
   RGname   = "${var.RGname}"
   location = "${var.location}"
 }
