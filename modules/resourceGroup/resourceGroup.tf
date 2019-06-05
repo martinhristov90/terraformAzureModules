@@ -9,5 +9,5 @@ resource "azurerm_resource_group" "trainingRG" {
 }
 
 output "RGname" {
-    value = "${azurerm_resource_group.trainingRG.name}"
+  value = "${azurerm_resource_group.trainingRG.name}"
 }

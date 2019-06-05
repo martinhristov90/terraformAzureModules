@@ -1,8 +1,7 @@
 variable "RGname" {
-  type    = "string"
+  type = "string"
 }
 
 variable "location" {
   type = "string"
-
 }

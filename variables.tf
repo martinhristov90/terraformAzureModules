@@ -7,5 +7,5 @@ variable "os" {
 }
 
 variable "RGname" {
-  type    = "string"
+  type = "string"
 }
